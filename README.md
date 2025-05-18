@@ -19,21 +19,24 @@ This project demonstrates how to add [Cypress](https://www.cypress.io/) for both
 
 ## Table of Contents
 
-- [Description](#description)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Media](#media)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Cypress Testing](#cypress-testing)
-  - [Run Cypress Tests](#run-cypress-tests)
-  - [Test Structure](#test-structure)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing, Support, and FAQ](#contributing-support-and-faq)
-- [Acknowledgments](#acknowledgments)
-- [Author](#author)
+- [Tech Quiz – Cypress Testing](#tech-quiz--cypress-testing)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Media](#media)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Cypress Testing](#cypress-testing)
+    - [Run Cypress Tests](#run-cypress-tests)
+    - [Test Structure](#test-structure)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing, Support, and FAQ](#contributing-support-and-faq)
+  - [Notes](#notes)
+  - [Acknowledgments](#acknowledgments)
+  - [Author](#author)
 
 ---
 
@@ -166,7 +169,7 @@ _E2E Test Passing in Terminal:_
 
 This project is licensed under the [MIT License](./LICENSE.txt).
 
-See the [MIT License text](https://opensource.org/licenses/MIT) for full details
+See the [MIT License text](https://opensource.org/licenses/MIT) for full details.
 
 ---
 
@@ -190,6 +193,12 @@ See the [MIT License text](https://opensource.org/licenses/MIT) for full details
   - _How do I add more component or E2E tests?_
     - Add new files to `cypress/component/` for component tests or `cypress/e2e/` for E2E tests.
     - Use the existing tests as templates for structure and best practices.
+
+---
+
+## Notes
+
+- The codebase is commented for educational purposes and future reference.
 
 ---
 
