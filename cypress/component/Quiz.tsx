@@ -1,4 +1,3 @@
-import { beforeEach } from 'vitest';
 import Quiz from '../../client/src/components/Quiz';
 
 describe('Quiz Component', () => {
@@ -31,7 +30,8 @@ describe('Quiz Component', () => {
         cy.mount(<Quiz />);
         cy.get('button').contains('Start Quiz').click();
         cy.get('button').contains('1').click();
-        cy.get('button').contains('Restart Quiz').click();
+        cy.get('.alert-success').should('exist');
+        cy.get('button').contains('Take New Quiz').click();
         cy.get('.card').should('be.visible');
         cy.get('h2').should('not.be.empty');
     });
