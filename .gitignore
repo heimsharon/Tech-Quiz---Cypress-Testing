@@ -56,7 +56,7 @@ dist-ssr/
 
 # dotenv environment variable files
 .env
-.env.*
+
 
 # Cypress output
 cypress/videos/
