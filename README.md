@@ -73,6 +73,7 @@ A video demonstration of all Cypress tests running and passing:
 [Watch the Cypress Testing Demo](https://drive.google.com/file/d/19BKAONjr81Zsa4OhIS5E7it55misjYtz/view?usp=sharing)
 
 **Screenshots:**
+
 _Component Test Passing in Terminal:_
 ![Component Test Passing](client/src/assets/component-terminal-pass.png)
 
